@@ -1,5 +1,6 @@
 # Portfolio
 Portfolio React Native Project
+https://elcriva.github.io/ElCriVa.guthub.io/
 
 This is my Portfolio submission for DIG 4639C. I chose to make a new project with at least three components. I made a working version of a journaling app called the Check In.
 The app has four screens/components. Each screen has a different function.
