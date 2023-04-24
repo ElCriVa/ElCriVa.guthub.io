@@ -2,6 +2,7 @@ import React, { useState, useEffect, useLayoutEffect } from 'react';
 import { Text, TextInput, TouchableOpacity, View, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import logo from './assets/logo.png'
 
 function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
@@ -22,6 +23,7 @@ function LoginScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
+      <img src={logo} className="App-logo" alt="logo" />
       <Text style={styles.label}>Email</Text>
       <TextInput
         style={styles.input}
@@ -266,5 +268,8 @@ const styles = StyleSheet.create({
   },
   cancelButton: {
     backgroundColor: '#A0C1B9',
+  },
+  img: {
+    tintColor: '#BEBBC6'
   },
 });
